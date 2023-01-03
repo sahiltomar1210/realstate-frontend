@@ -144,7 +144,7 @@ export default function Form() {
                                         className="property-buttons-right"
                                         onClick={() => {
                                             if (page === 3) {
-                                                fetch("http://localhost:8000/property/property", {
+                                                fetch("https://real-estate-backend-1-g4ji.onrender.com/property/property", {
                                                     method: "POST",
                                                     crossDomain: true,
                                                     headers: {

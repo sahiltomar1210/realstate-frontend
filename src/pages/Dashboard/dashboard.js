@@ -41,7 +41,7 @@ function Dashboard() {
         function Search(){
         const ppdid =search
           const fetchdata = () => {
-              fetch("http://localhost:8000/property/property/search", {
+              fetch("https://realestate-backend-z5ps.onrender.com/property/property/search", {
                   method: "POST",
                   crossDomain: true,
                   headers: {

@@ -14,7 +14,7 @@ function Table ({data}){
     }
     useEffect(() =>{
     const fetchdata = () => {
-        fetch("http://localhost:8000/property/property", {
+        fetch("https://real-estate-backend-1-g4ji.onrender.com/property/property", {
             method: "GET",
             crossDomain: true,
             headers: {

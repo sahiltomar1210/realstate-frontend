@@ -8,7 +8,7 @@ export const SignUp = () => {
   const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch("http://localhost:8000/users/register", {
+        fetch("https://real-estate-backend-1-g4ji.onrender.com/users/register", {
             method: "POST",
             crossDomain: true,
             headers: {

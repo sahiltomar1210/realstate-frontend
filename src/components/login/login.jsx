@@ -10,7 +10,7 @@ export const Login = (props) => {
   const token = window.localStorage.getItem("token");
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch("http://localhost:8000/users/login", {
+        fetch("https://real-estate-backend-1-g4ji.onrender.com/users/login", {
             method: "POST",
             crossDomain: true,
             headers: {

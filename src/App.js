@@ -5,7 +5,7 @@ import {Login} from './components/login/login'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard/dashboard";
 import ProtectedRoute from './utils/ProtectedRoute';
-import Form from "../../client/src/utils/settingpage"
+import Form from "../src/utils/settingpage.js"
 import ErrorPage from "./utils/ErrorPage";
 
 
