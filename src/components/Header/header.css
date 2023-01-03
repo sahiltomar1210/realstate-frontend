@@ -1,0 +1,18 @@
+.header-class{
+    width:80vw;
+}
+
+.header-left{
+ float: left;
+ padding: 25px;
+}
+.header-right{
+    float: right;
+    padding-right: 2%;  
+    padding-top: 25px; 
+    cursor: pointer;
+}
+.drop-down{
+    background-color: #FAFBFC;
+    border: none;
+}
